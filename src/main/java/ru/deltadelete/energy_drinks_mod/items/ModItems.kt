@@ -12,23 +12,6 @@ import thedarkcolour.kotlinforforge.forge.registerObject
 object ModItems {
     val Registry: DeferredRegister<Item> = DeferredRegister.create(ForgeRegistries.ITEMS, EnergyDrinks.ID)
 
-    val EXAMPLE_ITEM by Registry.registerObject("example_item") {
-        Item(Item.Properties().food(
-            FoodProperties.Builder()
-                .nutrition(4)
-                .saturationMod(1.5f)
-                .fast()
-                .alwaysEat()
-                .effect(1.0f) {
-                    MobEffectInstance(MobEffects.HEALTH_BOOST, 300, 2, false, true, true)
-                }
-                .build()
-        )
-            .tab(EnergyDrinks.CREATIVE_TAB)
-            .stacksTo(16)
-        )
-    }
-
     val FLASH_ORIGINAL by Registry.registerObject("flash_original") {
         EnergyDrink()
     }
