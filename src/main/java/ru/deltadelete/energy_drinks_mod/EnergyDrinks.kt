@@ -7,7 +7,6 @@ import net.minecraft.world.item.ItemStack
 import net.minecraft.world.item.Items
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent
 import org.slf4j.Logger
 import ru.deltadelete.energy_drinks_mod.effects.ModEffects
@@ -52,6 +51,7 @@ object EnergyDrinks {
      * things such as renderers and keymaps
      * Fired on the mod specific event bus.
      */
+    @Suppress("Unused_parameter")
     private fun onClientSetup(event: FMLClientSetupEvent) {
         LOGGER.info("Initializing client...")
         LOGGER.info("Initializing complete!")
@@ -60,6 +60,7 @@ object EnergyDrinks {
     /**
      * Fired on the global Forge bus.
      */
+    @Suppress("Unused_parameter")
     private fun onServerSetup(event: FMLDedicatedServerSetupEvent) {
         LOGGER.info("Server starting...")
     }

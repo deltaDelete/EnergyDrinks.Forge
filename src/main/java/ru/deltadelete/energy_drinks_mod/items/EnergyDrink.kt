@@ -13,6 +13,7 @@ import net.minecraft.world.entity.LivingEntity
 import net.minecraft.world.entity.player.Player
 import net.minecraft.world.item.*
 import net.minecraft.world.level.Level
+import net.minecraftforge.common.extensions.IForgeItem
 import org.jetbrains.annotations.NotNull
 import ru.deltadelete.energy_drinks_mod.CustomDamageSource
 import ru.deltadelete.energy_drinks_mod.effects.EnergyDrinkEffect
@@ -85,7 +86,7 @@ class EnergyDrink : Item {
     ): InteractionResultHolder<ItemStack> {
         if (this.isEdible) {
             val itemStack = player.getItemInHand(interactionHand)
-            if (player.canEat(foodProperties!!.canAlwaysEat())) {
+            if (player.canEat(getFoodProperties(itemStack, player)!!.canAlwaysEat())) {
                 player.startUsingItem(interactionHand)
                 return InteractionResultHolder.consume(itemStack)
             } else {
