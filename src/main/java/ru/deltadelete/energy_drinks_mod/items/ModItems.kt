@@ -47,10 +47,3 @@ object ModItems {
         Item(Item.Properties().tab(EnergyDrinks.CREATIVE_TAB))
     }
 }
-
-private fun FoodProperties.Builder.effect(
-    probability: Float,
-    supplier: () -> MobEffectInstance,
-): FoodProperties.Builder {
-    return this.effect(supplier, probability)
-}
