@@ -1,0 +1,16 @@
+{
+  "item.energy_drinks.flash_original": "Flash Up Energy Оригинальный",
+  "item.energy_drinks.flash_berry": "Flash Up Energy Ягодный микс",
+  "item.energy_drinks.flash_orange": "Flash Up Energy Апельсиновый ритм",
+  "item.energy_drinks.flash_lime": "Flash Up Energy Мятный лайм",
+  "item.energy_drinks.flash_gold": "Flash Up Energy Ультра",
+  "item.energy_drinks.black_rocket": "Black Rocket",
+  "item.energy_drinks.can": "Жестяная банка",
+  "itemGroup.energy_drinks.main": "Энергетики",
+  "effect.energy_drinks.energy_drink": "Энергетический напиток",
+  "effect.energy_drinks.diarrhea": "Понос",
+  "death.attack.heart_attack": "%s умер от сердечного приступа",
+  "death.attack.heart_attack.player": "%s умер от сердечного приступа пытаясь сбежать от %s",
+  "death.attack.diarrhea": "%s умер от поноса",
+  "death.attack.diarrhea.player": "%s умер от поноса пытаясь сбежать от %s"
+}

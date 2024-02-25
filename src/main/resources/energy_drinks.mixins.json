@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.deltadelete.energy_drinks_mod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "energy_drinks_mod.refmap.json",
+  "mixins": [
+    "Milk"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

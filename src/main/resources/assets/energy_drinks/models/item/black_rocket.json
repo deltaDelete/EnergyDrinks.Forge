@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "energy_drinks:item/black_rocket"
+  }
+}

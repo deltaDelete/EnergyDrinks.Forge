@@ -1,0 +1,16 @@
+{
+  "item.energy_drinks.flash_original": "Flash Up Energy Original",
+  "item.energy_drinks.flash_berry": "Flash Up Energy Berry mix",
+  "item.energy_drinks.flash_orange": "Flash Up Energy Orange rhythm",
+  "item.energy_drinks.flash_lime": "Flash Up Energy Minty lime",
+  "item.energy_drinks.flash_gold": "Flash Up Energy Ultra",
+  "item.energy_drinks.black_rocket": "Black Rocket",
+  "item.energy_drinks.can": "Can",
+  "itemGroup.energy_drinks.main": "Energy Drinks Mod",
+  "effect.energy_drinks.energy_drink": "Energy drink",
+  "effect.energy_drinks.diarrhea": "Diarrhea",
+  "death.attack.heart_attack": "%s died from heart attack",
+  "death.attack.heart_attack.player": "%s died from heart attack escaping %s",
+  "death.attack.diarrhea": "%s died from diarrhea",
+  "death.attack.diarrhea.player": "%s died from diarrhea escaping %s"
+}
